@@ -1,13 +1,80 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-head{
+  text-decoration: 3px underline crimson;
+  font-weight: bolder;
+}
+
+/* navbar css */
+.navbar{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  box-shadow: 0px 10px 10px -4px gray;
+  /* border-bottom: 0.3px solid gray; */
+}
+
+/* .navbar a:hover{
+  border-bottom: 3px solid crimson;
+} */
+.active{
+  border-bottom: 2px solid crimson;
+}
+
+.back-top:hover{
+  cursor: pointer;
+}
+
+
+
+/* .head-div-bolly{
+  border-bottom: 3px solid rebeccapurple;
+} */
+.head-bolly{
+  text-decoration: underline rebeccapurple;
+  font-weight: bold;
+}
+
+/* carousel css */
+.caption-head{
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  /* z-index:5; */
+  /* color:black; */
+  /* width: 10em; */
+}
+.caption-para{
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+  /* z-index:5; */
+}
+
+.travel-item{
+  /* margin-left: 5%  ; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* @media only screen and (min-width:300px) and (max-width: 767px){
+  .card-container{
+    width: 23rem;
+  }
+} */
+
+.container-detail{
+  margin: 5% 0 0 5%;
+  display: flex;
+  align-items: center;
+  /* align-items: ; */
 }
