@@ -18,7 +18,7 @@ const Sport = () => {
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:8080/sport")
+    fetch("https://blogappbackend-server.onrender.com/sport")
     .then((res)=>res.json())
     .then((res)=>{
       console.log("res", res);

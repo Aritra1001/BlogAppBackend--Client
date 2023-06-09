@@ -20,7 +20,7 @@ const Food = () => {
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:8080/food")
+    fetch("https://blogappbackend-server.onrender.com/food")
     .then((res)=>res.json())
     .then((res)=>{
       console.log("res", res);

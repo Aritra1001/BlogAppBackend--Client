@@ -19,7 +19,7 @@ const Bollywood = () => {
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:8080/bollywood")
+    fetch("https://blogappbackend-server.onrender.com/bollywood")
     .then((res)=>res.json())
     .then((res)=>{
       console.log("res", res);

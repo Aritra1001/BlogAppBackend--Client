@@ -16,7 +16,7 @@ const Technology = () => {
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:8080/technology")
+    fetch("https://blogappbackend-server.onrender.com/technology")
     .then((res)=>res.json())
     .then((res)=>{
       console.log("res", res);

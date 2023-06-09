@@ -16,7 +16,7 @@ const handleNavigate = (id, item)=>{
 const [data, setData] = useState([]);
 
 useEffect(()=>{
-  fetch("http://localhost:8080/hollywood")
+  fetch("https://blogappbackend-server.onrender.com/hollywood")
   .then((res)=>res.json())
   .then((res)=>{
     console.log("res", res);
