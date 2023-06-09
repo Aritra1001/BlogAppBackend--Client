@@ -19,7 +19,7 @@ const Travel = () => {
 
  
   useEffect(()=>{
-    fetch("http://localhost:8080/")
+    fetch("https://blogappbackend-server.onrender.com/")
     .then((res)=>res.json())
     .then((res)=>{
       console.log("res", res);
